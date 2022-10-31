@@ -14,7 +14,6 @@
         border-radius: 1.5em;
         border: 1px solid #fff;
         padding: 0.4em 1em !important;
-        margin-left: 1.25rem;
     }
 
     .nav-btn-light {
@@ -23,6 +22,7 @@
         color: #222222;
         padding: .4em 1.8em !important;
     }
+    
     &-show{
         background-color: $primary !important;
     }
@@ -30,7 +30,7 @@
     @media (max-width:1200px) { 
         & {
             background: $primary !important;
-
+            font-size: small;
             .nav-btn {
                 display: inline-block;
                 margin-top: .5rem;

@@ -26,10 +26,15 @@
 }
 
 .universities {
-    margin-bottom: 20rem;
 
     .col {
         border: 1px solid $light;
+    }
+
+    @media (min-width:992px) {
+        & {
+            margin-bottom: 20rem;
+        }
     }
 
 }
@@ -40,6 +45,12 @@
     background-size: contain;
 
     .inner-1 {
-        margin-top: -50vh;
+        // margin-top: -25%;
+    }
+
+    @media (min-width:992px) {
+        & .inner-1 {
+            margin-top: -25rem;
+        }
     }
 }

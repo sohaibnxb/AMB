@@ -31,7 +31,6 @@ section h2 {
   border-radius: 1.5em;
   border: 1px solid #fff;
   padding: 0.4em 1em !important;
-  margin-left: 1.25rem;
 }
 .navbar .nav-btn-light {
   background-color: #fff;
@@ -44,6 +43,7 @@ section h2 {
 @media (max-width: 1200px) {
   .navbar {
     background: #39B54A !important;
+    font-size: small;
   }
   .navbar .nav-btn, .navbar .nav-btn-light {
     display: inline-block;
@@ -83,7 +83,7 @@ section h2 {
 }
 @media (min-width: 992px) {
   .cards .row {
-    margin-top: -15vh;
+    margin-top: -10%;
   }
 }
 
@@ -103,19 +103,23 @@ section h2 {
   background: #1C75BC;
 }
 
-.universities {
-  margin-bottom: 20rem;
-}
 .universities .col {
   border: 1px solid #EDF0F5;
+}
+@media (min-width: 992px) {
+  .universities {
+    margin-bottom: 20rem;
+  }
 }
 
 .section-3 {
   background: #EDF0F5 url(../images/Image-1@2x.png) no-repeat center;
   background-size: contain;
 }
-.section-3 .inner-1 {
-  margin-top: -50vh;
+@media (min-width: 992px) {
+  .section-3 .inner-1 {
+    margin-top: -25rem;
+  }
 }
 
 .footer .logo {
