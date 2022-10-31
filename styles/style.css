@@ -20,6 +20,7 @@ section h2 {
 .navbar {
   border: 1px solid rgba(255, 255, 255, 0.1411764706);
   background: transparent;
+  transition: all 0.3s ease-in;
 }
 .navbar .nav-link {
   color: #FFFFFF;
