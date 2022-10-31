@@ -1,0 +1,126 @@
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+section h2 {
+  font-weight: 700;
+}
+
+.btn, .section-2 .btn, .section-1 .btn-primary {
+  padding: 0.5em 1.6em;
+  border-radius: 1.5em;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #39B54A;
+}
+
+.navbar {
+  border: 1px solid rgba(255, 255, 255, 0.1411764706);
+  background: transparent;
+}
+.navbar .nav-link {
+  color: #FFFFFF;
+}
+.navbar .nav-link:hover {
+  opacity: 0.8;
+}
+.navbar .nav-btn, .navbar .nav-btn-light {
+  border-radius: 1.5em;
+  border: 1px solid #fff;
+  padding: 0.4em 1em !important;
+  margin-left: 1.25rem;
+}
+.navbar .nav-btn-light {
+  background-color: #fff;
+  color: #222222;
+  padding: 0.4em 1.8em !important;
+}
+.navbar-show {
+  background-color: #39B54A !important;
+}
+@media (max-width: 1200px) {
+  .navbar {
+    background: #39B54A !important;
+  }
+  .navbar .nav-btn, .navbar .nav-btn-light {
+    display: inline-block;
+    margin-top: 0.5rem;
+  }
+}
+
+.showcase {
+  height: 80vh;
+  background: url("../images/hero.png") no-repeat;
+  background-size: cover;
+}
+.showcase-content {
+  max-width: 600px;
+}
+.showcase h3 {
+  font-weight: 500;
+}
+.showcase h2 {
+  font-weight: 700;
+  text-shadow: 0px 5px 5px rgba(15, 15, 15, 0.3019607843);
+}
+.showcase .btn-primary {
+  margin-right: 0.5em;
+  margin: 0.5em;
+}
+.showcase .btn-secondary {
+  background-color: #FFFFFF;
+  color: #222222;
+}
+
+.cards .card {
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1019607843);
+}
+.cards .row {
+  margin-top: 2vh;
+}
+@media (min-width: 992px) {
+  .cards .row {
+    margin-top: -15vh;
+  }
+}
+
+.section-1 .btn-primary {
+  background: #39B54A;
+}
+
+.section-2 {
+  background: #EDF0F5 url(../images/Image.png) no-repeat;
+  background-size: cover;
+  min-height: 30vh;
+}
+.section-2 .btn-primary {
+  background: #39B54A;
+}
+.section-2 .btn-secondary {
+  background: #1C75BC;
+}
+
+.universities {
+  margin-bottom: 20rem;
+}
+.universities .col {
+  border: 1px solid #EDF0F5;
+}
+
+.section-3 {
+  background: #EDF0F5 url(../images/Image-1@2x.png) no-repeat center;
+  background-size: contain;
+}
+.section-3 .inner-1 {
+  margin-top: -50vh;
+}
+
+.footer .logo {
+  filter: invert(58%) sepia(79%) saturate(246%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
+.footer a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

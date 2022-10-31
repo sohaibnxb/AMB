@@ -1,0 +1,38 @@
+$primary:#39B54A;
+$secondary:#1C75BC;
+$light:#EDF0F5;
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+section {
+    h2 {
+        font-weight: 700;
+    }
+}
+
+.btn {
+    padding: 0.5em 1.6em;
+    border-radius: 1.5em;
+    border: none;
+}
+
+.btn-primary {
+    background-color: $primary;
+
+}
+
+
+@import "navbar";
+@import "hero";
+@import "cards";
+@import "sections";
+@import "footer";
+
+
+
+
+

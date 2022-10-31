@@ -1,0 +1,17 @@
+.cards {
+    .card {
+        box-shadow: 0px 0px 35px #0000001A;
+    }
+
+    & .row {
+        margin-top: 2vh;
+
+
+    }
+
+    @media (min-width:992px) {
+        & .row {
+            margin-top: -15vh;
+        }
+    }
+}
