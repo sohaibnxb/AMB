@@ -22,19 +22,17 @@
         color: #222222;
         padding: .4em 1.8em !important;
     }
-    
-    &-show{
+
+    &-show {
         background-color: $primary !important;
     }
 
-    @media (max-width:1200px) { 
-        & {
-            background: $primary !important;
-            font-size: small;
-            .nav-btn {
-                display: inline-block;
-                margin-top: .5rem;
-            }
+    @media (max-width:1200px) {
+        background: $primary !important;
+        font-size: small;
+        .nav-btn {
+            display: inline-block;
+            margin-top: .5rem;
         }
     }
 
